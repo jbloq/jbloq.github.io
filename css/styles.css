@@ -1,0 +1,13 @@
+@font-face {
+	font-family: Fallout;
+	src: url(https://dl.dafont.com/dl/?f=overseer);
+}
+
+h3 {
+	text-shadow: 2px 2px #ff0000;
+	color: #D3D3D3;
+	size: 32px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Fallout;
+}
