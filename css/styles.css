@@ -3,10 +3,16 @@
 	src: url(https://dl.dafont.com/dl/?f=overseer);
 }
 
+
+body {
+		background-image: url("img/fallout_background_main.png");
+		background-color: #000000;
+}
+
 h3 {
 	text-shadow: 2px 2px #ff0000;
 	color: #D3D3D3;
-	size: 32px;
+	size: 96px;
 	font-weight: bold;
 	font-style: italic;
 	font-family: Fallout;
