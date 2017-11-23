@@ -4,16 +4,28 @@
 }
 
 
-body {
+.foreground {
+	background-image: url("img/fallout_foreground_.jpg");
+	-webkit-background-size:35% auto;
+	-moz-background-size:35% auto;
+	background-size:35% auto;	
+	background-position: center;
+}
+
+.background {
+		-webkit-background-size:35% auto;
+		-moz-background-size:35% auto;
+		background-size:35% auto;	
 		background-image: url("img/fallout_background.png");
 		background-color: #000000;
 }
 
 h3 {
-	text-shadow: 2px 2px #ff0000;
+	text-shadow: 2px 2px #FFFFFF;
 	color: #D3D3D3;
 	size: 96px;
 	font-weight: bold;
 	font-style: italic;
 	font-family: Fallout;
+	text-align: center;
 }
