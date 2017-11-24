@@ -3,7 +3,9 @@
 	src: url(https://dl.dafont.com/dl/?f=overseer);
 }
 
+.button{
 
+}
 .foreground {
 	background-image: url("img/fallout_foreground_.jpg");
 	-webkit-background-size:35% auto;

@@ -14,7 +14,12 @@
 		<div id="main" class="background">
 			<div id="intro" class ="foreground"> 
 			
-				<center><img src="img/fallout_foreground_main.jpg" ></img></center>
+				<center>
+				
+				<img src="img/fallout_foreground_main.jpg" ></img>
+				<button type="button">Read More</button>
+				
+				</center>
 
 			</div>
 			
@@ -23,12 +28,23 @@
 			</div>
 		</div>
 		
-		<div style="position:relative;width:267px;height:25px;overflow:hidden;">
-			<div style="position:absolute;top:-276px;left:-5px">
-				<iframe width="300" height="300" 
-					src="https://www.youtube.com/embed/lr8U8gxEzGU?rel=0">
-				</iframe>
-			</div>
-		</div>
+		<script>
+			var playlist = document.createElement("audio");
+			playlist.preload = "auto";
+			
+			var src = document.createElement("source");
+			src.src = "playlist/part1.mp3";
+			
+			playlist.appendChild(src);
+			
+			playlist.load();
+			playlist.volume = 1.00000;
+			playlist.play();
+			
+			function play(){
+			playlist.currentTime = 0.01;
+			soundFIle.volume = volume;
+			}
+		</script>
 		</body>
 	<html>
